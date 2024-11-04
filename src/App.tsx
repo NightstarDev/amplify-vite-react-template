@@ -2,9 +2,6 @@ import { useEffect, useState } from "react";
 import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 
-import { Flex, Image, Text, Icon } from '@aws-amplify/ui-react';
-import { MyIcon } from './ui-components';
-
 const client = generateClient<Schema>();
 
 function App() {
